@@ -9,10 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChemiChemical.Test", "Chemi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{7C91DBDB-B571-4565-870A-0868FC8789E4}"
 	ProjectSection(SolutionItems) = preProject
+		chemiChemicalsTestDatabase.bacpac = chemiChemicalsTestDatabase.bacpac
 		StackOverFlowLinks.txt = StackOverFlowLinks.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemiChemicals.EndPoint", "ChemiChemicals.EndPoint\ChemiChemicals.EndPoint.csproj", "{262A9B00-C9A9-4950-9993-25AE1985FDBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChemiChemicals.EndPoint", "ChemiChemicals.EndPoint\ChemiChemicals.EndPoint.csproj", "{262A9B00-C9A9-4950-9993-25AE1985FDBA}"
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ChemiChemicals.UI", "ChemiChemicals.UI\ChemiChemicals.UI.njsproj", "{5EE36468-7A6F-4E7D-B927-4BE9E03D32D6}"
 EndProject
