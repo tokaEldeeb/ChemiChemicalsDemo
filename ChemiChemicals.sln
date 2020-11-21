@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChemiChemicals.Repositry", "ChemiChemicals.DAL.Handler\ChemiChemicals.Repositry.csproj", "{6502F6F1-898D-495F-B45E-0EDE297671A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChemiChemical.Test", "ChemiChemical.Test\ChemiChemical.Test.csproj", "{4F7E3B8D-B8A0-480E-A248-8B8910895F39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{7C91DBDB-B571-4565-870A-0868FC8789E4}"
+	ProjectSection(SolutionItems) = preProject
+		StackOverFlowLinks.txt = StackOverFlowLinks.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemiChemicals.EndPoint", "ChemiChemicals.EndPoint\ChemiChemicals.EndPoint.csproj", "{262A9B00-C9A9-4950-9993-25AE1985FDBA}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ChemiChemicals.UI", "ChemiChemicals.UI\ChemiChemicals.UI.njsproj", "{5EE36468-7A6F-4E7D-B927-4BE9E03D32D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6502F6F1-898D-495F-B45E-0EDE297671A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6502F6F1-898D-495F-B45E-0EDE297671A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6502F6F1-898D-495F-B45E-0EDE297671A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6502F6F1-898D-495F-B45E-0EDE297671A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F7E3B8D-B8A0-480E-A248-8B8910895F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F7E3B8D-B8A0-480E-A248-8B8910895F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F7E3B8D-B8A0-480E-A248-8B8910895F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F7E3B8D-B8A0-480E-A248-8B8910895F39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262A9B00-C9A9-4950-9993-25AE1985FDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262A9B00-C9A9-4950-9993-25AE1985FDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262A9B00-C9A9-4950-9993-25AE1985FDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262A9B00-C9A9-4950-9993-25AE1985FDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE36468-7A6F-4E7D-B927-4BE9E03D32D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE36468-7A6F-4E7D-B927-4BE9E03D32D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE36468-7A6F-4E7D-B927-4BE9E03D32D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE36468-7A6F-4E7D-B927-4BE9E03D32D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D75E4D1-8D11-4FB0-A9CD-9B68D07FE65E}
+	EndGlobalSection
+EndGlobal

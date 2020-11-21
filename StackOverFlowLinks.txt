@@ -1,0 +1,41 @@
+1- https://stackoverflow.com/questions/48666780/cant-read-app-config-in-c-sharp-net-core-unit-test-project-with-configurationm
+searched when app.config can't be read in ChemiChemicals.Test project
+
+2- https://www.geeksforgeeks.org/singleton-design-pattern/
+to build connectionstringbuilder singleton instance
+
+3- https://stackoverflow.com/questions/45017295/assert-an-exception-using-xunit
+how to check if an action will throw an exception
+
+4- https://stackoverflow.com/questions/44560303/c-sharp-download-pdf-from-url-and-convert-it-into-base64-without-saving-it-on
+convert file to its binary data
+
+5- https://stackoverflow.com/questions/24034951/checking-file-type-from-base64
+to get extension from the base64 string
+
+6- https://stackoverflow.com/questions/52287029/response-pdf-download-from-base64string-c-sharp
+to get the bytes[] from base64 string
+
+7- https://stackoverflow.com/questions/41597455/net-core-webapi-unable-to-post-data-with-postman-error-415-unsupported-me
+when I was testing the insertProduct action but the model binder failed to bind the object from postman 
+
+8- https://reactjsexample.com/a-modulable-component-to-render-data-in-a-table-with-some-nice-features/
+react table component library
+
+9- https://stackoverflow.com/questions/44379560/how-to-enable-cors-in-asp-net-core-webapi
+enable cors for web api
+
+10- https://www.robinwieruch.de/react-hooks-fetch-data
+await in useEffect hook
+
+11- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+fetch options
+
+12- https://react-bootstrap.github.io/components/modal/
+create react modal 
+
+13- https://react-bootstrap.github.io/components/dropdowns/
+create dropdown for notofications
+
+14- https://react-bootstrap.github.io/components/toasts/
+show toas error
