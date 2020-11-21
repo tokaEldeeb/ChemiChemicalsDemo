@@ -1,0 +1,3 @@
+C:\Users\tokae\Downloads\ChemiChemicalsDemo\ChemiChemicals.UI\obj\Debug\ChemiChemicals.UI.njsprojAssemblyReference.cache
+C:\Users\tokae\Downloads\ChemiChemicalsDemo\ChemiChemicals.UI\obj\Debug\ChemiChemicals.UI.njsproj.CoreCompileInputs.cache
+C:\Users\tokae\Downloads\ChemiChemicalsDemo\ChemiChemicals.UI\bin\Microsoft.NodejsTools.WebRole.dll

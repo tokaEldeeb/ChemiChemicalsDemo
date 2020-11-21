@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UXBg/pxm3bjAyl70CY2FVIH3N5KRege6Ph7hxrsZg9LsFUucl0AsoOhhPJ0eVia0sfvejAdI+ef8UhvLnjjnTg==",
+  "dgSpecHash": "bXejxleCGDuVuVyNPEK1xOfjiXDgi0nM2vyKfYZP0FNP4oOeideOHlut/E2Utes1PiIBe5iLTaXCHRHxqUhGhw==",
   "success": true,
-  "projectFilePath": "E:\\me\\demo\\WebApplication1\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj",
+  "projectFilePath": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tokae\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\tokae\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

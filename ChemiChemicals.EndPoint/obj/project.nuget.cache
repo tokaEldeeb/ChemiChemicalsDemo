@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KZoM55LKaxXaURoYbI6+PJw6scdnsj76zcO7ahXhUufZVwznx5FPmyhjC0ZqxbeHLdSFE3/iN3MH5v/FzP5NeQ==",
+  "dgSpecHash": "99iCuOB9SsmNEZm2yD/XK82DAObOQw5Vbv6nYsX1rWcpJzOVDlyZSgpBWnHm9X37vmc1tXOIy90hREBeiBYEmg==",
   "success": true,
-  "projectFilePath": "E:\\me\\demo\\WebApplication1\\ChemiChemicals.EndPoint\\ChemiChemicals.EndPoint.csproj",
+  "projectFilePath": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.EndPoint\\ChemiChemicals.EndPoint.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tokae\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\tokae\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

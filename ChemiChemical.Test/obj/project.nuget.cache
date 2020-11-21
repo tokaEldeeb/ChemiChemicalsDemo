@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZhgVJupVmHgEMyU5H7JrLzCtvzsbB26YPmZLwjaW+NcRXrZV2XqKIJ6+z14LpYtN6skOc6metGV7aoCkFxC50w==",
+  "dgSpecHash": "D1+IbfHqLcjl9Q9a2ipZRr+XbX6Werv192nNVbwWz79nCU+XYBT9/Jt8HoTGN4bS3FTtQ0tFEW9edoMVY7w7KA==",
   "success": true,
-  "projectFilePath": "E:\\me\\demo\\WebApplication1\\ChemiChemical.Test\\ChemiChemical.Test.csproj",
+  "projectFilePath": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemical.Test\\ChemiChemical.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tokae\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\tokae\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",

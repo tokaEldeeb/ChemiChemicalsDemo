@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\me\\demo\\WebApplication1\\ChemiChemical.Test\\ChemiChemical.Test.csproj": {}
+    "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemical.Test\\ChemiChemical.Test.csproj": {}
   },
   "projects": {
-    "E:\\me\\demo\\WebApplication1\\ChemiChemical.Test\\ChemiChemical.Test.csproj": {
+    "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemical.Test\\ChemiChemical.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\me\\demo\\WebApplication1\\ChemiChemical.Test\\ChemiChemical.Test.csproj",
+        "projectUniqueName": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemical.Test\\ChemiChemical.Test.csproj",
         "projectName": "ChemiChemical.Test",
-        "projectPath": "E:\\me\\demo\\WebApplication1\\ChemiChemical.Test\\ChemiChemical.Test.csproj",
+        "projectPath": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemical.Test\\ChemiChemical.Test.csproj",
         "packagesPath": "C:\\Users\\tokae\\.nuget\\packages\\",
-        "outputPath": "E:\\me\\demo\\WebApplication1\\ChemiChemical.Test\\obj\\",
+        "outputPath": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemical.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tokae\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\me\\demo\\WebApplication1\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj": {
-                "projectPath": "E:\\me\\demo\\WebApplication1\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj"
+              "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj": {
+                "projectPath": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj"
               },
-              "E:\\me\\demo\\WebApplication1\\ChemiChemicals.EndPoint\\ChemiChemicals.EndPoint.csproj": {
-                "projectPath": "E:\\me\\demo\\WebApplication1\\ChemiChemicals.EndPoint\\ChemiChemicals.EndPoint.csproj"
+              "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.EndPoint\\ChemiChemicals.EndPoint.csproj": {
+                "projectPath": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.EndPoint\\ChemiChemicals.EndPoint.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "E:\\me\\demo\\WebApplication1\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj": {
+    "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\me\\demo\\WebApplication1\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj",
+        "projectUniqueName": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj",
         "projectName": "ChemiChemicals.Repositry",
-        "projectPath": "E:\\me\\demo\\WebApplication1\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj",
+        "projectPath": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj",
         "packagesPath": "C:\\Users\\tokae\\.nuget\\packages\\",
-        "outputPath": "E:\\me\\demo\\WebApplication1\\ChemiChemicals.DAL.Handler\\obj\\",
+        "outputPath": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.DAL.Handler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tokae\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -150,14 +150,14 @@
         }
       }
     },
-    "E:\\me\\demo\\WebApplication1\\ChemiChemicals.EndPoint\\ChemiChemicals.EndPoint.csproj": {
+    "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.EndPoint\\ChemiChemicals.EndPoint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\me\\demo\\WebApplication1\\ChemiChemicals.EndPoint\\ChemiChemicals.EndPoint.csproj",
+        "projectUniqueName": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.EndPoint\\ChemiChemicals.EndPoint.csproj",
         "projectName": "ChemiChemicals.EndPoint",
-        "projectPath": "E:\\me\\demo\\WebApplication1\\ChemiChemicals.EndPoint\\ChemiChemicals.EndPoint.csproj",
+        "projectPath": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.EndPoint\\ChemiChemicals.EndPoint.csproj",
         "packagesPath": "C:\\Users\\tokae\\.nuget\\packages\\",
-        "outputPath": "E:\\me\\demo\\WebApplication1\\ChemiChemicals.EndPoint\\obj\\",
+        "outputPath": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.EndPoint\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tokae\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -173,8 +173,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\me\\demo\\WebApplication1\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj": {
-                "projectPath": "E:\\me\\demo\\WebApplication1\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj"
+              "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj": {
+                "projectPath": "C:\\Users\\tokae\\Downloads\\ChemiChemicalsDemo\\ChemiChemicals.DAL.Handler\\ChemiChemicals.Repositry.csproj"
               }
             }
           }
