@@ -43,7 +43,7 @@ export class Header extends React.Component {
                         {
                             this.state.newProducts.map(product => {
                                 return (<Dropdown.Item href="#">
-                                    Product : {product.productName} of ID : {product.id} has been changed
+                                    Product : {product.productName} has been changed
                                 </Dropdown.Item>)
                             })
                         }

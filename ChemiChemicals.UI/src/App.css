@@ -1,3 +1,6 @@
+body{
+    overflow:hidden;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +38,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.edit, .display-columns-icon svg, .search-icon svg, .additional-icon-0 svg, .selection-icon-0 svg, .select-all svg, .select svg {
+    color: #17a2b8 !important;
+}
+
+
+.button-header {
+    color: #918888 !important;
+    font-weight: bolder!important;
+ }
+
+.form-control{
+    margin-bottom:5px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+}
+.modal-title{
+color: #7c7f81;
 }

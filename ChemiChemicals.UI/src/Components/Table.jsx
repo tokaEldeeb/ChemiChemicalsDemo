@@ -5,6 +5,7 @@ import TableOptions from "../Data/TableOptions";
 import {
     Add as Add,
 } from "@material-ui/icons";
+import VisibilityIcon from '@material-ui/icons/Visibility';
 import FormPopup from "./FormPopup";
 import { Toast } from 'react-bootstrap';
 
@@ -32,10 +33,14 @@ class Table extends Component {
         let val;
         switch (column.id) {
             case "binaryContent":
-                val = <a href={Product.GetViewProductContentLink(rowId)} target="blank">View</a>;
+                val = <div style={{ textAlign: "center" }}>
+                    <a href={Product.GetViewProductContentLink(rowId)} target="blank" style={{ color: "#17a2b8", textAlign: "center" }}>
+                    <VisibilityIcon/>
+                    </a>
+                </div>;
                 break;
             default:
-                val = <div style={{ color: "blue" }}>{cellVal}</div>;
+                val = <div style={{ color: "#17a2b8", textAlign:"center" }}>{cellVal}</div>;
                 break;
         }
         return val;
@@ -87,7 +92,6 @@ class Table extends Component {
     }
 
     render() {
-        var democontent = <div id='content'>some demo HTML</div>;
         return (
             <React.Fragment>
                 {this.state.showError && <div className="col-6">

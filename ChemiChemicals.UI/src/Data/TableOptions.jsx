@@ -3,7 +3,7 @@ import {
 } from "@material-ui/icons";
 
 const TableOptions = {
-    title: "Products",
+    title: "",
     dimensions: {
         datatable: {
             width: "100%",
@@ -18,12 +18,6 @@ const TableOptions = {
     showPopup : false,
     data: {
         columns: [
-            {
-                id: "id",
-                label: "id",
-                colSize: "150px",
-                editable: false
-            },
             {
                 id: "productName",
                 label: "Product Name",

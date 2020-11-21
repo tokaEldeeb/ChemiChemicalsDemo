@@ -22,17 +22,17 @@ function FormPopup({ showPopup, handleClose,handleOnInsertSuccess,handleOnInsert
             </Modal.Header>
             <Modal.Body>
                 <form>
-                    <div>
-                        <label>Product Name</label>
-                        <input type="text" value={newProduct.productName} onChange={value => setNewProduct({...newProduct,"productName": value.target.value })} />
+                    <div className="row col-12">
+                        <label className="col-6 form-label">Product Name</label>
+                        <input className="col-6 form-control"  type="text" value={newProduct.productName} onChange={value => setNewProduct({...newProduct,"productName": value.target.value })} />
                     </div>
-                    <div>
-                        <label>Supplier Name</label>
-                        <input type="text" value={newProduct.supplierName} onChange={value => setNewProduct({ ...newProduct, "supplierName": value.target.value })} />
+                    <div className="row col-12">
+                        <label className="col-6 form-label">Supplier Name</label>
+                        <input className="col-6 form-control" type="text" value={newProduct.supplierName} onChange={value => setNewProduct({ ...newProduct, "supplierName": value.target.value })} />
                     </div>
-                    <div>
-                        <label>Url</label>
-                        <input type="text" value={newProduct.url} onChange={value => setNewProduct({ ...newProduct, "url": value.target.value })} />
+                    <div className="row col-12">
+                        <label className="col-6 form-label">Url</label>
+                        <input className="col-6 form-control" type="text" value={newProduct.url} onChange={value => setNewProduct({ ...newProduct, "url": value.target.value })} />
                     </div>
                 </form>
             </Modal.Body>
