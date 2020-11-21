@@ -38,4 +38,14 @@ create react modal
 create dropdown for notofications
 
 14- https://react-bootstrap.github.io/components/toasts/
-show toas error
+show toast error
+
+15- https://testing-library.com/docs/react-testing-library/example-intro/
+how to create unit test
+
+16- https://create-react-app.dev/docs/running-tests/
+how to run unit test
+
+17- https://jestjs.io/docs/en/mock-function-api
+how to use mock in testing
+

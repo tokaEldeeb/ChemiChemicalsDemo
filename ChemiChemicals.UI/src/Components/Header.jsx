@@ -36,7 +36,7 @@ export class Header extends React.Component {
                 </div>
                 <div className="col-1">
                 <Dropdown align="right">
-                    <Dropdown.Toggle variant="info" id="dropdown-basic" menuAlign="left">
+                    <Dropdown.Toggle variant="info" id="dropdown-basic">
                         <NotificationsIcon/>
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
