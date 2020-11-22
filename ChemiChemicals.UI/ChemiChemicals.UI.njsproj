@@ -59,7 +59,13 @@
       <SubType>Code</SubType>
     </Content>
     <Content Include="src\setupTests.js" />
+    <Content Include="src\UnitTest\FormPopup.test.jsx">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="src\UnitTest\Header.test.jsx">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\UnitTest\Table.test.jsx">
       <SubType>Code</SubType>
     </Content>
   </ItemGroup>
