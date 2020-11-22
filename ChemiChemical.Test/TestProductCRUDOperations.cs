@@ -3,6 +3,7 @@ using ChemiChemicals.Repositry.Invokers;
 using Microsoft.Data.SqlClient;
 using System;
 using System.Configuration;
+using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -30,6 +31,14 @@ namespace ChemiChemical.Test
         {
             var products = await new Product().GetRecentlyChangedProducts();
             Assert.NotEmpty(products);
+        }
+
+        [Fact]
+        public async Task TestChangesIsWithin3Days()
+        {
+            var products = await new Product().GetRecentlyChangedProducts();
+            var productsAfter3days = products.Where(product => (product.InsertionDate - DateTime.Today).TotalDays  > 3);
+            Assert.Empty(productsAfter3days);
         }
 
         [Fact]

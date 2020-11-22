@@ -49,3 +49,8 @@ how to run unit test
 17- https://jestjs.io/docs/en/mock-function-api
 how to use mock in testing
 
+18- https://stackoverflow.com/questions/55633049/referenceerror-waitforelement-is-not-defined-when-testing-react-js
+to wait for a promise to be done in reactjs testing
+
+19- https://testing-library.com/docs/dom-testing-library/api-queries/
+screen queries documentations

@@ -1,11 +1,8 @@
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen, fireEvent, getByText, waitForElement, getByRole  } from '@testing-library/react';
 import Header from '../Components/Header';
-import { rest } from 'msw';
-import { setupServer } from 'msw/node';
 import '@testing-library/jest-dom/extend-expect'
 import Product from "../Services/Product";
 
-jest.mock("../Services/Product");
 
 test('renders header', () => {
     render(<Header />);
@@ -31,7 +28,39 @@ test('toggle menu using toggle btn', async () => {
 });
 
 test('test calling api', async () => {
+    jest.mock("../Services/Product");
     const getSpy = jest.spyOn(Product, 'GetRecentlyChangedProducts');
     render(<Header />);
     expect(getSpy).toBeCalled()
+});
+
+
+
+test('loading the notification', async () => {
+    jest.mock("../Services/Product");
+    //mock the getrecetlychangedproducts function that get all the recently changed products
+    const mockedFn = jest.fn((resolveCallback, errorCallBack) => {
+        Promise.resolve([
+            {
+                id: "56432a9a-02c4-43eb-88e9-e5e4ce536201",
+                productName: 'product',
+                supplierName: "supplier",
+                url: "http://www.africau.edu/images/default/sample.pdf",
+                binaryContent: "",
+                isChanged: false,
+                insertDate: "11-10-2020"
+            }]).then(resolveCallback).catch(errorCallBack)
+    });
+
+    Product.GetRecentlyChangedProducts.mockImplementation(mockedFn);
+
+   const { container} = render(<Header />);
+
+    //click on the toggle button to open the notification menu
+    const toggleBtn = document.getElementById('dropdown-basic');
+    fireEvent.click(toggleBtn);
+
+    //look if the newly added item was found
+    const newlyAddedNotification = await waitForElement(() => container.getElementsByClassName("dropdown-item")[0]);
+    expect(newlyAddedNotification).toBeInTheDocument();
 });
