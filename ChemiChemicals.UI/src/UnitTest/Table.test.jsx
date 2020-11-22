@@ -7,7 +7,7 @@ test('load products in table rows', async () => {
     jest.mock("../Services/Product");
     const getSpy = jest.spyOn(Product, 'GetAllProducts');
 
-    //mock the getrecetlychangedproducts function that get all the recently changed products
+    //mock the GetAllProducts function that get all the recently changed products
     const mockedFn = jest.fn((resolveCallback, errorCallBack) => {
         Promise.resolve([
             {
